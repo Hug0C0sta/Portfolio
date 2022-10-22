@@ -1,25 +1,64 @@
 .two-colors{
   background: linear-gradient(
     to bottom,
-    #F14235 0%,
-    #F14235 90%,
+    #00539CFF 0%,
+    #00539CFF 90%,
     white 90%,
     white 100%
   );
+  margin-bottom: 4vw;
+  margin-top: 3vw;
 }
 
 .big-name {
   font-size: 4.5vw;
+  color: white;
 }
 
 .work-name {
   font-size: 2vw;
+  color: white;
+
 }
 
 .center-icones {
   margin-left: auto;
   margin-right: auto;
 }
+
+.center-text-and-icones {
+  margin-top: auto; 
+  margin-bottom: auto;
+}
+
+.div-home-color {
+  background-color: #00539CFF;
+}
+
+.info {
+  margin-bottom: auto;
+  margin-top: auto;
+  font-weight: bold;
+}
+
+.size-info-text {
+  font-size: 1.5vw;
+}
+
+.margin-icons {
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
+  margin-top: 1vw;
+  width: 2.5vw;
+  height: auto;
+}
+
+.text-decoration-underline {
+  text-decoration-color: #00539CFF;
+
+}
+
+
 
 
 

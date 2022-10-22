@@ -2,3 +2,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.primary-color {
+    color: #00539CFF;
+    font-weight: normal;
+}
+
+.second-color {
+    color: #EEA47FFF;
+}
+
