@@ -1,0 +1,23 @@
+.two-colors{
+  background: linear-gradient(
+    to bottom,
+    #F14235 0%,
+    #F14235 90%,
+    white 90%,
+    white 100%
+  );
+}
+
+.big-name {
+  font-size: 4.5vw;
+}
+
+.work-name {
+  font-size: 2vw;
+}
+
+
+
+
+
+
