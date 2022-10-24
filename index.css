@@ -1,24 +1,11 @@
-.two-colors{
-  background: linear-gradient(
-    to bottom,
-    #00539CFF 0%,
-    #00539CFF 90%,
-    white 90%,
-    white 100%
-  );
-  margin-bottom: 4vw;
-  margin-top: 3vw;
-}
-
 .big-name {
-  font-size: 4.5vw;
   color: white;
+  font-size: 40px;
 }
 
 .work-name {
-  font-size: 2vw;
   color: white;
-
+  font-size: 30px;
 }
 
 .center-icones {
@@ -27,12 +14,12 @@
 }
 
 .center-text-and-icones {
-  margin-top: auto; 
+  margin-top: auto;
   margin-bottom: auto;
 }
 
 .div-home-color {
-  background-color: #00539CFF;
+  background-color: #00539cff;
 }
 
 .info {
@@ -45,18 +32,43 @@
   font-size: 1.5vw;
 }
 
-.margin-icons {
-  margin-left: 0.3vw;
-  margin-right: 0.3vw;
-  margin-top: 1vw;
-  width: 2.5vw;
-  height: auto;
-}
-
 .text-decoration-underline {
-  text-decoration-color: #00539CFF;
+  text-decoration-color: #00539cff;
 }
 
-.download {
+.redes {
+  max-width: 60px;
+}
+
+@media only screen and (min-width: 762px) {
+  .divcolor {
+    background: linear-gradient(
+      to bottom,
+      #00539cff 0%,
+      #00539cff 90%,
+      white 90%,
+      white 100%
+    );
+  }
+}
+
+@media only screen and (max-width: 763px) {
+  body {
+    background: rgb(0,43,91);
+    background: linear-gradient(180deg, rgba(0,43,91,1) 0%, rgba(43,72,101,1) 17%, rgba(191,204,208,1) 100%); 
+    
+  }
   
+  h1 {
+    color: white;
+  }
+
+  p1 {
+    color: white;
+  }
+
+}
+
+.div-margin-top {
+  margin-top: 10em;
 }
