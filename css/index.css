@@ -40,7 +40,34 @@
   max-width: 60px;
 }
 
-@media only screen and (min-width: 762px) {
+@media only screen and (max-width: 991.99px){
+  .divcolor {
+    margin-top: 100px;
+    border-radius: 90px;
+    background: linear-gradient(
+      to bottom,
+      #00539cff 0%,
+      #00539cff 80%,
+      white 80%,
+      white 100%
+    );
+  }
+
+  #large-head {
+    display: none;
+  } 
+
+  .margem-nome {
+    margin-top: 30px;
+  }
+
+  .margem-work{
+    margin-bottom: -10px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
   .divcolor {
     background: linear-gradient(
       to bottom,
@@ -49,25 +76,28 @@
       white 90%,
       white 100%
     );
-  }
-}
 
-@media only screen and (max-width: 763px) {
-  body {
-    background: rgb(0,43,91);
-    background: linear-gradient(180deg, rgba(0,43,91,1) 0%, rgba(43,72,101,1) 17%, rgba(191,204,208,1) 100%); 
-    
+    margin-top: 100px;
+
+    border-radius: 100px 100px 0px 0px;
   }
-  
-  h1 {
-    color: white;
+  .hide-element {
+      display: none;
   }
 
   p1 {
-    color: white;
+    font-size: 20px ;
   }
 
+  .diminuir-div {
+    width: 70%;
+  }
+
+  #small-head {
+    display: none;
+  }
 }
+
 
 .div-margin-top {
   margin-top: 10em;
