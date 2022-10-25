@@ -14,12 +14,15 @@
     color: #EEA47FFF;
 }
 
-.color-mobile {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,83,156,1) 56%, rgba(0,212,255,1) 100%); 
-}
-
 .white {
     color: white;
+}
+
+.div-margin-top {
+    margin-top: 10em;
+  }
+
+.div-menor-margin-top {
+    margin-top: 4em;
 }
 
