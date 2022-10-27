@@ -10,6 +10,10 @@
     font-weight: normal;
 }
 
+.background-primary-color {
+    background-color: #00539CFF;
+}
+
 .second-color {
     color: #EEA47FFF;
 }

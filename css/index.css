@@ -40,7 +40,7 @@
   max-width: 60px;
 }
 
-@media only screen and (max-width: 991.99px){
+@media only screen and (max-width: 768.99px){
   .divcolor {
     margin-top: 100px;
     border-radius: 90px;
@@ -63,6 +63,42 @@
 
   .margem-work{
     margin-bottom: -10px;
+  }
+
+  .icones-size {
+      width: 250px;
+  }
+
+
+}
+
+@media only screen and (max-width: 988px) and (min-width: 769px){
+  .divcolor {
+    margin-top: 100px;
+    border-radius: 90px;
+    background: linear-gradient(
+      to bottom,
+      #00539cff 0%,
+      #00539cff 80%,
+      white 80%,
+      white 100%
+    );
+  }
+
+  #large-head {
+    display: none;
+  } 
+
+  .margem-nome {
+    margin-top: 30px;
+  }
+
+  .margem-work{
+    margin-bottom: -10px;
+  }
+
+  .icones-size {
+      width: 1000px;
   }
 }
 
@@ -96,6 +132,17 @@
   #small-head {
     display: none;
   }
+
+  .tam-form{
+    width: 40%;
+  }
+
 }
+
+.div-form {
+  margin-top: 10px;
+}
+
+
 
 
